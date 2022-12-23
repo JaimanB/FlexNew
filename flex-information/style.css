@@ -1,0 +1,30 @@
+body { 
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightcyan;
+    text-align: center
+}
+
+.container{
+    background-color: beige;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;   
+}
+
+li {
+    width: 200px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 32px;
+}
