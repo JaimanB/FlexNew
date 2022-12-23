@@ -1,0 +1,51 @@
+ul {
+    list-style-type: none;
+  }
+
+li{
+  display: inline-block;
+  padding: 5px;
+}
+
+
+body {
+  font-family: monospace;
+  background: white;
+  display: flex;
+}
+
+.logo{
+    Font-size: 48px;
+    font-weight: bold;
+    Color: tomato;
+    background: white;
+    margin: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.num{
+  Font-size: 22px;
+  background-color: white;
+  color: blue;
+  padding: 5px;
+  margin: 5px;
+}
+
+.container{
+  background: papayawhip;
+  align-items: center;
+  height: 100px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  display: flex;  
+}
+
+.right{
+  display: flex;
+}
